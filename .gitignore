@@ -1,0 +1,31 @@
+# ambiente virtual
+.venv/
+venv/
+
+# cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# cache de ferramentas
+.ruff_cache/
+
+# logs
+*.log
+app.log
+
+# notebooks (opcional - depende do que você quer versionar)
+.ipynb_checkpoints/
+
+# sistema operacional
+.DS_Store
+Thumbs.db
+
+# arquivos temporários
+*.tmp
+
+# arquivos sensíveis
+.env
+
+# notebooks
+Notebooks/
