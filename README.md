@@ -54,12 +54,12 @@ PROJETO/
 
 2.  **Instale as dependências:**
     ```bash
-    pip install -r requirements.txt
+    uv sync
     ```
 
 3.  **Execute o programa:**
     ```bash
-    python main.py
+    uv run main.py
     ```
 
 ## 📖 Como Usar
