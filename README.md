@@ -78,7 +78,7 @@ O sistema gera automaticamente um arquivo `app.log` no diretório raiz. Caso oco
 
 ## 👤 Desenvolvedor
 
-*   **Autor:** TMG
+*   **Autor:** TMGods
 *   **Versão:** 1.0
 *   **Ano:** 2025
 
