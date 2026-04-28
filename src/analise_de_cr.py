@@ -386,7 +386,7 @@ def check_usar_21(df_wire):
         df_legacy = pd.read_excel(f,sheet_name="rev.1")
 
     dict_legacy = {
-        str(row["Cabo"]): str(row["Legacy"]) for i, row in df_legacy.iterrows()
+        str(row["Part Number"]): str(row["Legacy"]) for i, row in df_legacy.iterrows()
     }
 
     df_path_cabos = consultar_arquivos_base(id_name="Lista_de_cabos")
